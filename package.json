@@ -1,5 +1,5 @@
 {
-  "name": "vue-dataset",
+  "name": "@gormartsen/vue-dataset",
   "version": "1.0.0",
   "description": "Vue.$dataset that is capable to be watched and be loaded with .refresh() method.",
   "main": "index.js",
