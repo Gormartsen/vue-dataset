@@ -1,3 +1,4 @@
+/*global DATASET_PRELOAD*/
 import { reactive } from "vue";
 
 function DataSetState(app, setDefenition) {
@@ -119,7 +120,7 @@ DataSetState.prototype.getItem = function (dataset) {
       }
     }
   }
-  if(DATASET_PRELOAD && DATASET_PRELOAD[dataset]) {
+  if (DATASET_PRELOAD && DATASET_PRELOAD[dataset]) {
     defaultValue = DATASET_PRELOAD[dataset]
   }
   return defaultValue;
